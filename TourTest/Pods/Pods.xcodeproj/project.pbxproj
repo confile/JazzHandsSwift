@@ -1,559 +1,2407 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		0021257BF916AF695A59E085 /* IFTTTHideAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 37E74F2EF0BF18D8B77550F3 /* IFTTTHideAnimation.h */; };
-		02D6276C8282EB80F5657981 /* IFTTTAnimatedScrollViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C4671FF422C2B64941DE1F5D /* IFTTTAnimatedScrollViewController.h */; };
-		0334FBB6341C0DC1A6A1AD5C /* Pods-TourTest-JazzHands-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C23748AF468D3D907AF237 /* Pods-TourTest-JazzHands-dummy.m */; };
-		08F6BF3C983F258A9B5D7B17 /* IFTTTScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B7BCAC71EE13A1840707A5 /* IFTTTScaleAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules -DOS_OBJECT_USE_OBJC=0"; }; };
-		0F5D661BD1BD866A2B3F0B40 /* IFTTTJazzHands.h in Headers */ = {isa = PBXBuildFile; fileRef = D73E08758C3A4C9B575FB27E /* IFTTTJazzHands.h */; };
-		13358EDD1C30A74F0865FD87 /* IFTTTAnimationKeyFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = BF06E6F3F17368E5CE66ED79 /* IFTTTAnimationKeyFrame.h */; };
-		17FB3E8ACB9F13B50C74FC79 /* IFTTTCornerRadiusAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = A4E401FB2C4631210085FE6C /* IFTTTCornerRadiusAnimation.h */; };
-		214C737720F669047F075F7A /* IFTTTAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCD04630AD1E720DE9B7EC5 /* IFTTTAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules -DOS_OBJECT_USE_OBJC=0"; }; };
-		23A8BA9768A28A5A3B4A404D /* IFTTTAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 71EDE2AEC420F0048514F61A /* IFTTTAnimation.h */; };
-		2ABD38ED755A49678FAA3C19 /* IFTTTHideAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EF7ACC46A674D1E22BED19 /* IFTTTHideAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules -DOS_OBJECT_USE_OBJC=0"; }; };
-		302A0002BC98E4C67FE43678 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 863A5A91BA21CD0E3E091D05 /* QuartzCore.framework */; };
-		355CE5E6DBAF525B2DEBCEC1 /* IFTTTEasingFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7985192F391D02964F107AC2 /* IFTTTEasingFunction.m */; settings = {COMPILER_FLAGS = "-fmodules -DOS_OBJECT_USE_OBJC=0"; }; };
-		368AEB3021722F38CA6BD80D /* IFTTTAnimationFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 36D28810694D693B78933AF3 /* IFTTTAnimationFrame.h */; };
-		379FF3E413FC14C4DD7E32BB /* IFTTTConstraintsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = EA3B9D4782B8E43C9B36C385 /* IFTTTConstraintsAnimation.h */; };
-		42837C18A3D6306A49A7117C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EDA18BAEBC0A6019EB52AD /* Foundation.framework */; };
-		42B9DF165D526C468A1F604A /* IFTTTFrameAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4226CD760D9809D92EFAC5E2 /* IFTTTFrameAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules -DOS_OBJECT_USE_OBJC=0"; }; };
-		55F270FF86C7CB26439FD23D /* IFTTTAngleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F013B271E3EE737919C7CB /* IFTTTAngleAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules -DOS_OBJECT_USE_OBJC=0"; }; };
-		6283F32D84467BB82F50F843 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB92030E478AD79982B362F /* UIKit.framework */; };
-		62C2C0877F1B227335120823 /* IFTTTAlphaAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8A0F5CD42E2409C0975F43 /* IFTTTAlphaAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules -DOS_OBJECT_USE_OBJC=0"; }; };
-		6565016CD247AA02DCC923F1 /* IFTTTAnimationKeyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = F60BA66DF7E455CEE4F58A2E /* IFTTTAnimationKeyFrame.m */; settings = {COMPILER_FLAGS = "-fmodules -DOS_OBJECT_USE_OBJC=0"; }; };
-		6DA88114C1D9412FC04C1E07 /* IFTTTCornerRadiusAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F3B1B261B3391F2E003F71 /* IFTTTCornerRadiusAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules -DOS_OBJECT_USE_OBJC=0"; }; };
-		717A99B4BC914714B7561FAB /* IFTTTAnimationFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC594B0AEE386EF479EC420 /* IFTTTAnimationFrame.m */; settings = {COMPILER_FLAGS = "-fmodules -DOS_OBJECT_USE_OBJC=0"; }; };
-		7329928DFFC0B789EAA05573 /* IFTTTColorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB15CB08EB8F44C8A6B64BD /* IFTTTColorAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules -DOS_OBJECT_USE_OBJC=0"; }; };
-		7B1D18278A68154CF67D3E74 /* IFTTTAnimatedScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A495414EC536C7219CC847 /* IFTTTAnimatedScrollViewController.m */; settings = {COMPILER_FLAGS = "-fmodules -DOS_OBJECT_USE_OBJC=0"; }; };
-		7F18E234E91D85F1578F7341 /* IFTTTEasingFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 7295D2B17B2F776A12552BDC /* IFTTTEasingFunction.h */; };
-		8042875B4E39BC374BCFCBA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CFD3B4A4916A45E1E7B5F2E /* CoreGraphics.framework */; };
-		8BC248E96B79545AD6D31F11 /* IFTTTAngleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9761EC8F6BCDB59E4EC23B66 /* IFTTTAngleAnimation.h */; };
-		8F383F2CB02FD9D99A258873 /* IFTTTFrameAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 100C1554F36E2C32C991703E /* IFTTTFrameAnimation.h */; };
-		90BBE6B7C8CD0AF57AD9B449 /* IFTTTAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0237446ADABA8A5AF1D96145 /* IFTTTAnimator.h */; };
-		9538589791BEE430A4166BC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EDA18BAEBC0A6019EB52AD /* Foundation.framework */; };
-		A4BC2037E3FFFE88786477E5 /* IFTTTConstraintsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5788F6F1D010E6F0BE506872 /* IFTTTConstraintsAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules -DOS_OBJECT_USE_OBJC=0"; }; };
-		B078C733FC987869792C7CB0 /* IFTTTColorAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 215C681348E73C20719E87A0 /* IFTTTColorAnimation.h */; };
-		BD019B656E71A8B22A51D3FC /* IFTTTAlphaAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = AAAAD8252CA1C837B83930AF /* IFTTTAlphaAnimation.h */; };
-		D8497188F5372FA26082BD99 /* IFTTTTransform3DAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = ABFE5F048756E479D0CC6A7E /* IFTTTTransform3DAnimation.h */; };
-		E0EACDC2C03E9294F1E861F1 /* IFTTTTransform3DAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4C9CDA102A92E80E29C337 /* IFTTTTransform3DAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules -DOS_OBJECT_USE_OBJC=0"; }; };
-		E1281183C55CC0A3D52D4298 /* IFTTTScaleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 214735EF6F6C98D13F105685 /* IFTTTScaleAnimation.h */; };
-		EB3920F4A4EFA3C837A2BF61 /* Pods-TourTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 991DB8B9D0795F724C5C27F4 /* Pods-TourTest-dummy.m */; };
-		FC5F170B2C1B5B787508BE93 /* IFTTTAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 023DAD87107FDD46D6DF51B9 /* IFTTTAnimator.m */; settings = {COMPILER_FLAGS = "-fmodules -DOS_OBJECT_USE_OBJC=0"; }; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		56F5A8509F14A7CABCF632BD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C7556D46BF9F3BE1F36065F9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0ED5F391AE45AD41519DF7F0;
-			remoteInfo = "Pods-TourTest-JazzHands";
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		0237446ADABA8A5AF1D96145 /* IFTTTAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTAnimator.h; path = JazzHands/IFTTTAnimator.h; sourceTree = "<group>"; };
-		023DAD87107FDD46D6DF51B9 /* IFTTTAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTAnimator.m; path = JazzHands/IFTTTAnimator.m; sourceTree = "<group>"; };
-		03EF7ACC46A674D1E22BED19 /* IFTTTHideAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTHideAnimation.m; path = JazzHands/IFTTTHideAnimation.m; sourceTree = "<group>"; };
-		100C1554F36E2C32C991703E /* IFTTTFrameAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTFrameAnimation.h; path = JazzHands/IFTTTFrameAnimation.h; sourceTree = "<group>"; };
-		1514180D8D74482E7A99403E /* Pods-TourTest-JazzHands-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TourTest-JazzHands-Private.xcconfig"; sourceTree = "<group>"; };
-		214735EF6F6C98D13F105685 /* IFTTTScaleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTScaleAnimation.h; path = JazzHands/IFTTTScaleAnimation.h; sourceTree = "<group>"; };
-		215C681348E73C20719E87A0 /* IFTTTColorAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTColorAnimation.h; path = JazzHands/IFTTTColorAnimation.h; sourceTree = "<group>"; };
-		279F929829FFC486716AD47C /* Pods-TourTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TourTest-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2BC594B0AEE386EF479EC420 /* IFTTTAnimationFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTAnimationFrame.m; path = JazzHands/IFTTTAnimationFrame.m; sourceTree = "<group>"; };
-		36D28810694D693B78933AF3 /* IFTTTAnimationFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTAnimationFrame.h; path = JazzHands/IFTTTAnimationFrame.h; sourceTree = "<group>"; };
-		37E74F2EF0BF18D8B77550F3 /* IFTTTHideAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTHideAnimation.h; path = JazzHands/IFTTTHideAnimation.h; sourceTree = "<group>"; };
-		4226CD760D9809D92EFAC5E2 /* IFTTTFrameAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTFrameAnimation.m; path = JazzHands/IFTTTFrameAnimation.m; sourceTree = "<group>"; };
-		42F04BB52C8AA082D7A4941C /* libPods-TourTest-JazzHands.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TourTest-JazzHands.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		492FB3B04913C176C37A6C2E /* Pods-TourTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TourTest-acknowledgements.plist"; sourceTree = "<group>"; };
-		4DB15CB08EB8F44C8A6B64BD /* IFTTTColorAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTColorAnimation.m; path = JazzHands/IFTTTColorAnimation.m; sourceTree = "<group>"; };
-		56B276F22E759804940ED53A /* Pods-TourTest-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TourTest-environment.h"; sourceTree = "<group>"; };
-		5788F6F1D010E6F0BE506872 /* IFTTTConstraintsAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTConstraintsAnimation.m; path = JazzHands/IFTTTConstraintsAnimation.m; sourceTree = "<group>"; };
-		68539CFA73BA228B2562B40C /* Pods-TourTest-JazzHands.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TourTest-JazzHands.xcconfig"; sourceTree = "<group>"; };
-		6DDB4AF36A2377F597F830B1 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		71EDE2AEC420F0048514F61A /* IFTTTAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTAnimation.h; path = JazzHands/IFTTTAnimation.h; sourceTree = "<group>"; };
-		7295D2B17B2F776A12552BDC /* IFTTTEasingFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTEasingFunction.h; path = JazzHands/IFTTTEasingFunction.h; sourceTree = "<group>"; };
-		7985192F391D02964F107AC2 /* IFTTTEasingFunction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTEasingFunction.m; path = JazzHands/IFTTTEasingFunction.m; sourceTree = "<group>"; };
-		79F3B1B261B3391F2E003F71 /* IFTTTCornerRadiusAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTCornerRadiusAnimation.m; path = JazzHands/IFTTTCornerRadiusAnimation.m; sourceTree = "<group>"; };
-		7A335026E8BBC94865DE7E91 /* libPods-TourTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TourTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7CB92030E478AD79982B362F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		7CFD3B4A4916A45E1E7B5F2E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		863A5A91BA21CD0E3E091D05 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		8F4C9CDA102A92E80E29C337 /* IFTTTTransform3DAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTTransform3DAnimation.m; path = JazzHands/IFTTTTransform3DAnimation.m; sourceTree = "<group>"; };
-		9761EC8F6BCDB59E4EC23B66 /* IFTTTAngleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTAngleAnimation.h; path = JazzHands/IFTTTAngleAnimation.h; sourceTree = "<group>"; };
-		991DB8B9D0795F724C5C27F4 /* Pods-TourTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TourTest-dummy.m"; sourceTree = "<group>"; };
-		9B8A75C10370E299CAC14269 /* Pods-TourTest-JazzHands-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TourTest-JazzHands-prefix.pch"; sourceTree = "<group>"; };
-		9DCD04630AD1E720DE9B7EC5 /* IFTTTAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTAnimation.m; path = JazzHands/IFTTTAnimation.m; sourceTree = "<group>"; };
-		A4E401FB2C4631210085FE6C /* IFTTTCornerRadiusAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTCornerRadiusAnimation.h; path = JazzHands/IFTTTCornerRadiusAnimation.h; sourceTree = "<group>"; };
-		AAAAD8252CA1C837B83930AF /* IFTTTAlphaAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTAlphaAnimation.h; path = JazzHands/IFTTTAlphaAnimation.h; sourceTree = "<group>"; };
-		AB8A0F5CD42E2409C0975F43 /* IFTTTAlphaAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTAlphaAnimation.m; path = JazzHands/IFTTTAlphaAnimation.m; sourceTree = "<group>"; };
-		ABFE5F048756E479D0CC6A7E /* IFTTTTransform3DAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTTransform3DAnimation.h; path = JazzHands/IFTTTTransform3DAnimation.h; sourceTree = "<group>"; };
-		B3EDA18BAEBC0A6019EB52AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		BCB2CF59A38D5774B80BE246 /* Pods-TourTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TourTest-resources.sh"; sourceTree = "<group>"; };
-		BF06E6F3F17368E5CE66ED79 /* IFTTTAnimationKeyFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTAnimationKeyFrame.h; path = JazzHands/IFTTTAnimationKeyFrame.h; sourceTree = "<group>"; };
-		C4671FF422C2B64941DE1F5D /* IFTTTAnimatedScrollViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTAnimatedScrollViewController.h; path = JazzHands/IFTTTAnimatedScrollViewController.h; sourceTree = "<group>"; };
-		C7A495414EC536C7219CC847 /* IFTTTAnimatedScrollViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTAnimatedScrollViewController.m; path = JazzHands/IFTTTAnimatedScrollViewController.m; sourceTree = "<group>"; };
-		D3C23748AF468D3D907AF237 /* Pods-TourTest-JazzHands-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TourTest-JazzHands-dummy.m"; sourceTree = "<group>"; };
-		D4EBBC92248E8B2F9D3A9DEA /* Pods-TourTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TourTest.release.xcconfig"; sourceTree = "<group>"; };
-		D73E08758C3A4C9B575FB27E /* IFTTTJazzHands.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTJazzHands.h; path = JazzHands/IFTTTJazzHands.h; sourceTree = "<group>"; };
-		D8F013B271E3EE737919C7CB /* IFTTTAngleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTAngleAnimation.m; path = JazzHands/IFTTTAngleAnimation.m; sourceTree = "<group>"; };
-		E5B7BCAC71EE13A1840707A5 /* IFTTTScaleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTScaleAnimation.m; path = JazzHands/IFTTTScaleAnimation.m; sourceTree = "<group>"; };
-		EA3B9D4782B8E43C9B36C385 /* IFTTTConstraintsAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTConstraintsAnimation.h; path = JazzHands/IFTTTConstraintsAnimation.h; sourceTree = "<group>"; };
-		EA7A4DE5B8F634599B63EF2A /* Pods-TourTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TourTest.debug.xcconfig"; sourceTree = "<group>"; };
-		F60BA66DF7E455CEE4F58A2E /* IFTTTAnimationKeyFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTAnimationKeyFrame.m; path = JazzHands/IFTTTAnimationKeyFrame.m; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		0E91301CC835FE81D733EAA1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8042875B4E39BC374BCFCBA4 /* CoreGraphics.framework in Frameworks */,
-				42837C18A3D6306A49A7117C /* Foundation.framework in Frameworks */,
-				302A0002BC98E4C67FE43678 /* QuartzCore.framework in Frameworks */,
-				6283F32D84467BB82F50F843 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C9AD8E597771FBD80C6AE1C0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9538589791BEE430A4166BC2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		3A9D45CF5EA965C0FCB1626D /* Pods-TourTest */ = {
-			isa = PBXGroup;
-			children = (
-				279F929829FFC486716AD47C /* Pods-TourTest-acknowledgements.markdown */,
-				492FB3B04913C176C37A6C2E /* Pods-TourTest-acknowledgements.plist */,
-				991DB8B9D0795F724C5C27F4 /* Pods-TourTest-dummy.m */,
-				56B276F22E759804940ED53A /* Pods-TourTest-environment.h */,
-				BCB2CF59A38D5774B80BE246 /* Pods-TourTest-resources.sh */,
-				EA7A4DE5B8F634599B63EF2A /* Pods-TourTest.debug.xcconfig */,
-				D4EBBC92248E8B2F9D3A9DEA /* Pods-TourTest.release.xcconfig */,
-			);
-			name = "Pods-TourTest";
-			path = "Target Support Files/Pods-TourTest";
-			sourceTree = "<group>";
-		};
-		4269BA05CEFC80792AEEE17B /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				7CFD3B4A4916A45E1E7B5F2E /* CoreGraphics.framework */,
-				B3EDA18BAEBC0A6019EB52AD /* Foundation.framework */,
-				863A5A91BA21CD0E3E091D05 /* QuartzCore.framework */,
-				7CB92030E478AD79982B362F /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		55C519E6739F2F1916D4A6A3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4269BA05CEFC80792AEEE17B /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		584FC71419D0E27449BF94C2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7A335026E8BBC94865DE7E91 /* libPods-TourTest.a */,
-				42F04BB52C8AA082D7A4941C /* libPods-TourTest-JazzHands.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		61E71922A55A4537143341E2 = {
-			isa = PBXGroup;
-			children = (
-				6DDB4AF36A2377F597F830B1 /* Podfile */,
-				55C519E6739F2F1916D4A6A3 /* Frameworks */,
-				67FE7BD1C19128A32DA3AA03 /* Pods */,
-				584FC71419D0E27449BF94C2 /* Products */,
-				94586D562B7A630155C80F97 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		67FE7BD1C19128A32DA3AA03 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				97C611CB12E0A6C37CE59D9E /* JazzHands */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		94586D562B7A630155C80F97 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3A9D45CF5EA965C0FCB1626D /* Pods-TourTest */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		97C611CB12E0A6C37CE59D9E /* JazzHands */ = {
-			isa = PBXGroup;
-			children = (
-				AAAAD8252CA1C837B83930AF /* IFTTTAlphaAnimation.h */,
-				AB8A0F5CD42E2409C0975F43 /* IFTTTAlphaAnimation.m */,
-				9761EC8F6BCDB59E4EC23B66 /* IFTTTAngleAnimation.h */,
-				D8F013B271E3EE737919C7CB /* IFTTTAngleAnimation.m */,
-				C4671FF422C2B64941DE1F5D /* IFTTTAnimatedScrollViewController.h */,
-				C7A495414EC536C7219CC847 /* IFTTTAnimatedScrollViewController.m */,
-				71EDE2AEC420F0048514F61A /* IFTTTAnimation.h */,
-				9DCD04630AD1E720DE9B7EC5 /* IFTTTAnimation.m */,
-				36D28810694D693B78933AF3 /* IFTTTAnimationFrame.h */,
-				2BC594B0AEE386EF479EC420 /* IFTTTAnimationFrame.m */,
-				BF06E6F3F17368E5CE66ED79 /* IFTTTAnimationKeyFrame.h */,
-				F60BA66DF7E455CEE4F58A2E /* IFTTTAnimationKeyFrame.m */,
-				0237446ADABA8A5AF1D96145 /* IFTTTAnimator.h */,
-				023DAD87107FDD46D6DF51B9 /* IFTTTAnimator.m */,
-				215C681348E73C20719E87A0 /* IFTTTColorAnimation.h */,
-				4DB15CB08EB8F44C8A6B64BD /* IFTTTColorAnimation.m */,
-				EA3B9D4782B8E43C9B36C385 /* IFTTTConstraintsAnimation.h */,
-				5788F6F1D010E6F0BE506872 /* IFTTTConstraintsAnimation.m */,
-				A4E401FB2C4631210085FE6C /* IFTTTCornerRadiusAnimation.h */,
-				79F3B1B261B3391F2E003F71 /* IFTTTCornerRadiusAnimation.m */,
-				7295D2B17B2F776A12552BDC /* IFTTTEasingFunction.h */,
-				7985192F391D02964F107AC2 /* IFTTTEasingFunction.m */,
-				100C1554F36E2C32C991703E /* IFTTTFrameAnimation.h */,
-				4226CD760D9809D92EFAC5E2 /* IFTTTFrameAnimation.m */,
-				37E74F2EF0BF18D8B77550F3 /* IFTTTHideAnimation.h */,
-				03EF7ACC46A674D1E22BED19 /* IFTTTHideAnimation.m */,
-				D73E08758C3A4C9B575FB27E /* IFTTTJazzHands.h */,
-				214735EF6F6C98D13F105685 /* IFTTTScaleAnimation.h */,
-				E5B7BCAC71EE13A1840707A5 /* IFTTTScaleAnimation.m */,
-				ABFE5F048756E479D0CC6A7E /* IFTTTTransform3DAnimation.h */,
-				8F4C9CDA102A92E80E29C337 /* IFTTTTransform3DAnimation.m */,
-				D43C7B0E0EF7805F66459C95 /* Support Files */,
-			);
-			path = JazzHands;
-			sourceTree = "<group>";
-		};
-		D43C7B0E0EF7805F66459C95 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				68539CFA73BA228B2562B40C /* Pods-TourTest-JazzHands.xcconfig */,
-				1514180D8D74482E7A99403E /* Pods-TourTest-JazzHands-Private.xcconfig */,
-				D3C23748AF468D3D907AF237 /* Pods-TourTest-JazzHands-dummy.m */,
-				9B8A75C10370E299CAC14269 /* Pods-TourTest-JazzHands-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-TourTest-JazzHands";
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		1E39CC880E17FC8A654048BE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BD019B656E71A8B22A51D3FC /* IFTTTAlphaAnimation.h in Headers */,
-				8BC248E96B79545AD6D31F11 /* IFTTTAngleAnimation.h in Headers */,
-				02D6276C8282EB80F5657981 /* IFTTTAnimatedScrollViewController.h in Headers */,
-				23A8BA9768A28A5A3B4A404D /* IFTTTAnimation.h in Headers */,
-				368AEB3021722F38CA6BD80D /* IFTTTAnimationFrame.h in Headers */,
-				13358EDD1C30A74F0865FD87 /* IFTTTAnimationKeyFrame.h in Headers */,
-				90BBE6B7C8CD0AF57AD9B449 /* IFTTTAnimator.h in Headers */,
-				B078C733FC987869792C7CB0 /* IFTTTColorAnimation.h in Headers */,
-				379FF3E413FC14C4DD7E32BB /* IFTTTConstraintsAnimation.h in Headers */,
-				17FB3E8ACB9F13B50C74FC79 /* IFTTTCornerRadiusAnimation.h in Headers */,
-				7F18E234E91D85F1578F7341 /* IFTTTEasingFunction.h in Headers */,
-				8F383F2CB02FD9D99A258873 /* IFTTTFrameAnimation.h in Headers */,
-				0021257BF916AF695A59E085 /* IFTTTHideAnimation.h in Headers */,
-				0F5D661BD1BD866A2B3F0B40 /* IFTTTJazzHands.h in Headers */,
-				E1281183C55CC0A3D52D4298 /* IFTTTScaleAnimation.h in Headers */,
-				D8497188F5372FA26082BD99 /* IFTTTTransform3DAnimation.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
-/* Begin PBXNativeTarget section */
-		0ED5F391AE45AD41519DF7F0 /* Pods-TourTest-JazzHands */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3164D117AE14B724C88A6134 /* Build configuration list for PBXNativeTarget "Pods-TourTest-JazzHands" */;
-			buildPhases = (
-				31E95FC73C284A4858BF9288 /* Sources */,
-				0E91301CC835FE81D733EAA1 /* Frameworks */,
-				1E39CC880E17FC8A654048BE /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-TourTest-JazzHands";
-			productName = "Pods-TourTest-JazzHands";
-			productReference = 42F04BB52C8AA082D7A4941C /* libPods-TourTest-JazzHands.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		A5AEC49000B99E609F1AC955 /* Pods-TourTest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F276D10311CB46F23179148F /* Build configuration list for PBXNativeTarget "Pods-TourTest" */;
-			buildPhases = (
-				BC5A7FCFB6A627D262FD3D53 /* Sources */,
-				C9AD8E597771FBD80C6AE1C0 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				105F2306CD42472375C4B45F /* PBXTargetDependency */,
-			);
-			name = "Pods-TourTest";
-			productName = "Pods-TourTest";
-			productReference = 7A335026E8BBC94865DE7E91 /* libPods-TourTest.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		C7556D46BF9F3BE1F36065F9 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0640;
-			};
-			buildConfigurationList = 2FF9D3BD961D55FE419D03E3 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = 61E71922A55A4537143341E2;
-			productRefGroup = 584FC71419D0E27449BF94C2 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				A5AEC49000B99E609F1AC955 /* Pods-TourTest */,
-				0ED5F391AE45AD41519DF7F0 /* Pods-TourTest-JazzHands */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXSourcesBuildPhase section */
-		31E95FC73C284A4858BF9288 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62C2C0877F1B227335120823 /* IFTTTAlphaAnimation.m in Sources */,
-				55F270FF86C7CB26439FD23D /* IFTTTAngleAnimation.m in Sources */,
-				7B1D18278A68154CF67D3E74 /* IFTTTAnimatedScrollViewController.m in Sources */,
-				214C737720F669047F075F7A /* IFTTTAnimation.m in Sources */,
-				717A99B4BC914714B7561FAB /* IFTTTAnimationFrame.m in Sources */,
-				6565016CD247AA02DCC923F1 /* IFTTTAnimationKeyFrame.m in Sources */,
-				FC5F170B2C1B5B787508BE93 /* IFTTTAnimator.m in Sources */,
-				7329928DFFC0B789EAA05573 /* IFTTTColorAnimation.m in Sources */,
-				A4BC2037E3FFFE88786477E5 /* IFTTTConstraintsAnimation.m in Sources */,
-				6DA88114C1D9412FC04C1E07 /* IFTTTCornerRadiusAnimation.m in Sources */,
-				355CE5E6DBAF525B2DEBCEC1 /* IFTTTEasingFunction.m in Sources */,
-				42B9DF165D526C468A1F604A /* IFTTTFrameAnimation.m in Sources */,
-				2ABD38ED755A49678FAA3C19 /* IFTTTHideAnimation.m in Sources */,
-				08F6BF3C983F258A9B5D7B17 /* IFTTTScaleAnimation.m in Sources */,
-				E0EACDC2C03E9294F1E861F1 /* IFTTTTransform3DAnimation.m in Sources */,
-				0334FBB6341C0DC1A6A1AD5C /* Pods-TourTest-JazzHands-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC5A7FCFB6A627D262FD3D53 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EB3920F4A4EFA3C837A2BF61 /* Pods-TourTest-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		105F2306CD42472375C4B45F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-TourTest-JazzHands";
-			target = 0ED5F391AE45AD41519DF7F0 /* Pods-TourTest-JazzHands */;
-			targetProxy = 56F5A8509F14A7CABCF632BD /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin XCBuildConfiguration section */
-		38FADCA378FC068E25BE1034 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA7A4DE5B8F634599B63EF2A /* Pods-TourTest.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		486BDD3373F7CDE7C79D0892 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1514180D8D74482E7A99403E /* Pods-TourTest-JazzHands-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-TourTest-JazzHands/Pods-TourTest-JazzHands-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		94E0C95E81A592C5FB4CD323 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				ONLY_ACTIVE_ARCH = YES;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		9CD0CBD6083198B42C6F8F87 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4EBBC92248E8B2F9D3A9DEA /* Pods-TourTest.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		BECD658F9F87CBEEE576128E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1514180D8D74482E7A99403E /* Pods-TourTest-JazzHands-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-TourTest-JazzHands/Pods-TourTest-JazzHands-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		CC956DF3836C7290EDFEA6BE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		2FF9D3BD961D55FE419D03E3 /* Build configuration list for PBXProject "Pods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				94E0C95E81A592C5FB4CD323 /* Debug */,
-				CC956DF3836C7290EDFEA6BE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3164D117AE14B724C88A6134 /* Build configuration list for PBXNativeTarget "Pods-TourTest-JazzHands" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BECD658F9F87CBEEE576128E /* Debug */,
-				486BDD3373F7CDE7C79D0892 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F276D10311CB46F23179148F /* Build configuration list for PBXNativeTarget "Pods-TourTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				38FADCA378FC068E25BE1034 /* Debug */,
-				9CD0CBD6083198B42C6F8F87 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = C7556D46BF9F3BE1F36065F9 /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>00232C6D36B46A8C35922A80</key>
+		<dict>
+			<key>fileRef</key>
+			<string>97FFCF566DD05601F98A7FB1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>00966003A975B6661C836A92</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8DD21F490C18B874014D51BE</string>
+				<string>D639DAEF03140EAAC07D1C67</string>
+				<string>5C1B5E8714CF4800DA21783E</string>
+				<string>23A162D8606760CDF546FF51</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/Pods-TourTest-JazzHands</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>016229E919CDE4F29F7B8C1E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTStrokeStartAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTStrokeStartAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>029180BA998B4397305FA33B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTCornerRadiusAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTCornerRadiusAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>042E84E21D652E366AF754D1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTFillColorAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTFillColorAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>08FCF11D54628C757E081BC9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CC020884F75C675A4EDA5255</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>095E684D9C8A4507EB35032C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D81559D6D012E066DA7DBB9E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0C37FE28FCFDFF89BD8D3041</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTScrollViewPageConstraintAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTScrollViewPageConstraintAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0D82FC0691F08F67351824ED</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTInterpolatable.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTInterpolatable.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1276422FD736560DC65AC46E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTAnimatedPagingScrollViewController.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTAnimatedPagingScrollViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>12E018710FE77F5D5E22F33F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C0FC820685B2109A7CD7BF67</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>148631FDAD055912C01938CC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTConstraintMultiplierAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTConstraintMultiplierAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>153597F5B1F4F49BF5DC4924</key>
+		<dict>
+			<key>fileRef</key>
+			<string>54D3DF44D4CA363A9B7D5CF5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>16FFA0814CFD7C25760D745A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTScaleAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTScaleAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>172BD9070583CC52DDB811CB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTAnimatedScrollViewController.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTAnimatedScrollViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>17F1CD0CB7C149E0D7434E65</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2ADA2E89EBD499EFEB0E1F88</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1AC8CF2433F03A54A37D1A08</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>D639DAEF03140EAAC07D1C67</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-TourTest-JazzHands/Pods-TourTest-JazzHands-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>1B2D949059EB1125E48D4D37</key>
+		<dict>
+			<key>fileRef</key>
+			<string>029180BA998B4397305FA33B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1BBA82739F894F59126684F3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>1D8BA1D7925CC66E857988D2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTConstraintConstantAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTConstraintConstantAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1EEE086A2B3767A035B7CE19</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2A0168C03CF417CD4B482236</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>22D8CC7F608AE05C9211D5E1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5C1B5E8714CF4800DA21783E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>23A162D8606760CDF546FF51</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-TourTest-JazzHands-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>25178E01B2D74AE06E5C1CFB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTRotationAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTRotationAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>26E8A8CFF003E7AB71DF26B7</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreGraphics.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>276A6C880CECD02837D38E58</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>5DB5011DC8D14BD2FBEFEBF8</string>
+				<string>D1646FF4D4C8A0485AAE589A</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>2810C2248069D6279891B6F4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A52A75E6BDB3B1A91D790FA6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2902FDC7C28771640A4B6373</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A8486F70F722F75D85CCAA7A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>29480DEADD0D0C486FECFA29</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9D54F5B0CF3CB5084AB52535</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>2A0168C03CF417CD4B482236</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTConstraintConstantAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTConstraintConstantAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2A0398BDF4940D173BB2FC8E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTTextColorAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTTextColorAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2ADA2E89EBD499EFEB0E1F88</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTColorAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTColorAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2DDF3AE0F5B950E22E0CC7A6</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>ADDD8229968BBC2DBB248982</string>
+				<string>2810C2248069D6279891B6F4</string>
+				<string>660F38087ED7E62427EBA227</string>
+				<string>66B0E1493243496C004E6F2B</string>
+				<string>92F4EE58F981C2C021D96FD2</string>
+				<string>BC956D5AE071BFB27163FEFD</string>
+				<string>17F1CD0CB7C149E0D7434E65</string>
+				<string>1EEE086A2B3767A035B7CE19</string>
+				<string>F4363EAF14525A47438F1C2F</string>
+				<string>1B2D949059EB1125E48D4D37</string>
+				<string>81FA0E5EC31B8F2E6042C26A</string>
+				<string>94F8418830DFCE56572865C8</string>
+				<string>7856810E86BECBFD2E58429A</string>
+				<string>153597F5B1F4F49BF5DC4924</string>
+				<string>00232C6D36B46A8C35922A80</string>
+				<string>64475DE7AD1636793596E3FD</string>
+				<string>9C44BA9C1D439E709151B32D</string>
+				<string>5909E614E48B7B9880B46CE7</string>
+				<string>12E018710FE77F5D5E22F33F</string>
+				<string>F00A0C3BE9324D0086394BBD</string>
+				<string>3A1ACF6616C90A53EFCBE603</string>
+				<string>437054CF70CFABA1697116CB</string>
+				<string>832BF05C3D392E1E036A9005</string>
+				<string>FC7CD9990D0ECF3FD481D1A5</string>
+				<string>D51F94884491727512464EC8</string>
+				<string>3706321149BE803AD5F2B137</string>
+				<string>CF81A04D8E0038FBDE120311</string>
+				<string>F495CA3901750A99D2E27BF8</string>
+				<string>AA83467EF5910B023E1EA042</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>2E2608C302E11680BB2A7E05</key>
+		<dict>
+			<key>fileRef</key>
+			<string>042E84E21D652E366AF754D1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>3070E3E7A003A5D9DC0BD1E8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTJazzHands.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTJazzHands.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3097A47D4483B1FBFAD10F43</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTAlphaAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTAlphaAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>328ACB948E99098CE337A784</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-TourTest-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>341A09ACE26F6AA557499F6C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D5F6FA9896F2AB06D11D1F1A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>355DAC30C0A1561F9C920191</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTAnimator.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTAnimator.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3706321149BE803AD5F2B137</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E71E3EC80E6BD3AD5739B3E2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3A1ACF6616C90A53EFCBE603</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F43F4501FC06F7681B7F6615</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3DDCC07BDBFC10979C4C3BCF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTInterpolatable.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTInterpolatable.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3ED4CA4D0545D2E922303B48</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C04C9478E030DE8786F9F333</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>3F8A9B8661EAFD36E138E568</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTViewAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTViewAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4131D2C5711535FCD2D587E4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>45BBB7188DECDA343B2C4EE3</string>
+				<string>5AD07D0E354FB596D7AB7B49</string>
+				<string>328ACB948E99098CE337A784</string>
+				<string>671250DB220FCA0A742D89B3</string>
+				<string>FFAFCF2DA9E19BAC8CF9A3E0</string>
+				<string>CF6452BB59F103D372BBA7AF</string>
+				<string>85060824A42F3C7081BC6C6E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-TourTest</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-TourTest</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>437054CF70CFABA1697116CB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8EE2A283D376CC8F13259ECF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4490679496E751A837E7670F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>68316B31F93454A5464E9AA3</string>
+				<string>952765DD92A5B09F5A436AC3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>45BBB7188DECDA343B2C4EE3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-TourTest-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>46DB7BE9BA73D3F5924210C8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3F8A9B8661EAFD36E138E568</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>47531BD1671ECBC9F59A4629</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FBEE7CD59392591B1BACDA8B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>475BA31536391E53413D37DB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4F161EFBE333078D1016B7BF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>4836C6014056CF96D8E99368</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>Podfile</string>
+			<key>path</key>
+			<string>../Podfile</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>xcLanguageSpecificationIdentifier</key>
+			<string>xcode.lang.ruby</string>
+		</dict>
+		<key>4CC30465AAD1CD9B73A956A6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTAnimatedPagingScrollViewController.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTAnimatedPagingScrollViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4F161EFBE333078D1016B7BF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTEasingFunction.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTEasingFunction.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5297FCA8D88F3C4A92C936C8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B42EC090EBD45B0A2CFC340D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>53E29A2CF49B0CF49D6319F0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTConstraintMultiplierAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTConstraintMultiplierAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>548B7F4189FF0812B81826BF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTTranslationAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTTranslationAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>54D3DF44D4CA363A9B7D5CF5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTFrameAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTFrameAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>58AA66A3B3EEF7529FE4362B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>5909E614E48B7B9880B46CE7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6AC1A20225519DA9CD5C3C92</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>59CCB5C9546FBD8DCEB23FDF</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>D639DAEF03140EAAC07D1C67</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-TourTest-JazzHands/Pods-TourTest-JazzHands-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>5AD07D0E354FB596D7AB7B49</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-TourTest-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5C1B5E8714CF4800DA21783E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-TourTest-JazzHands-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5DB5011DC8D14BD2FBEFEBF8</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+				<key>SYMROOT</key>
+				<string>${SRCROOT}/../build</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>64475DE7AD1636793596E3FD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0D82FC0691F08F67351824ED</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>660F38087ED7E62427EBA227</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4CC30465AAD1CD9B73A956A6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>66B0E1493243496C004E6F2B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CAB5FE0763D8D9C2C441527C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>670CF6E9B612A23FEC724039</key>
+		<dict>
+			<key>fileRef</key>
+			<string>172BD9070583CC52DDB811CB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>671250DB220FCA0A742D89B3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-TourTest-environment.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>67C8A8169455759CA6C32187</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E68D2227C8440A637A0E7F31</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>68316B31F93454A5464E9AA3</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods-TourTest.a</string>
+			<key>path</key>
+			<string>libPods-TourTest.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>6AC1A20225519DA9CD5C3C92</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTLabelAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTLabelAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6AFB43A03FFD1BB89CFD0498</key>
+		<dict>
+			<key>fileRef</key>
+			<string>58AA66A3B3EEF7529FE4362B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6D13A8D5063B9F5B9F92A432</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8E4B8FBDF7F4ECD36D041892</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>703E48FCFDF67B6F625D26F9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIView+IFTTTJazzHands.h</string>
+			<key>path</key>
+			<string>JazzHands/UIView+IFTTTJazzHands.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>739778E4449E22560F4036DF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>26E8A8CFF003E7AB71DF26B7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>77C81E09F4B4325D143225D3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTTransform3DAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTTransform3DAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7856810E86BECBFD2E58429A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A1A52F485B1379839ED4AA3A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>787E477472CC2B559FEAFCC3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E61B023099AEDF9DEF25C9C5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>7D7088DD4E3B6874EE37D5EC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A87802C0CBCB6A3F47031ED6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F18245754783C25F5BDDE11</key>
+		<dict>
+			<key>fileRef</key>
+			<string>80BE1E5B7EACE864A8A0E8BA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>80BE1E5B7EACE864A8A0E8BA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTStrokeEndAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTStrokeEndAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>81FA0E5EC31B8F2E6042C26A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D2399DFCAAE026931F10116C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8302A7C665214F9F40F1008B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>3ED4CA4D0545D2E922303B48</string>
+				<string>C85B2F2D4B4F3A2E248DF1E6</string>
+				<string>670CF6E9B612A23FEC724039</string>
+				<string>5297FCA8D88F3C4A92C936C8</string>
+				<string>47531BD1671ECBC9F59A4629</string>
+				<string>341A09ACE26F6AA557499F6C</string>
+				<string>BC2B85D25A6F838830984E23</string>
+				<string>E10EE71D836AE2DC6D80BA09</string>
+				<string>6D13A8D5063B9F5B9F92A432</string>
+				<string>475BA31536391E53413D37DB</string>
+				<string>2E2608C302E11680BB2A7E05</string>
+				<string>29480DEADD0D0C486FECFA29</string>
+				<string>2902FDC7C28771640A4B6373</string>
+				<string>787E477472CC2B559FEAFCC3</string>
+				<string>F15AD54F2D8D0430EDF1EA85</string>
+				<string>8FA0E2F678995A840FBF90FD</string>
+				<string>D0449EEE28579860F3207FBB</string>
+				<string>A3725A229104FAFEC4146579</string>
+				<string>CC64AF6CADF681F69B77828C</string>
+				<string>A043DCEDC7769953B69616A0</string>
+				<string>7F18245754783C25F5BDDE11</string>
+				<string>67C8A8169455759CA6C32187</string>
+				<string>C586A13C5C7164A6862478B6</string>
+				<string>B65F2567F9B5BFCF1E16AB56</string>
+				<string>E347F1C58F15AF7A012A538F</string>
+				<string>46DB7BE9BA73D3F5924210C8</string>
+				<string>22D8CC7F608AE05C9211D5E1</string>
+				<string>08FCF11D54628C757E081BC9</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>832BF05C3D392E1E036A9005</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CCA43F70F5C413709519FE75</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>85060824A42F3C7081BC6C6E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-TourTest.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>85124CDEE3DCDB581629BFAB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>328ACB948E99098CE337A784</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>879138D4FED84E07158D76DA</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0640</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>276A6C880CECD02837D38E58</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>FB43F9E62836AC995DFD7F44</string>
+			<key>productRefGroup</key>
+			<string>4490679496E751A837E7670F</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>E307A4DBE5022E78D349CB0A</string>
+				<string>D6696709BAA5CBF748F07B30</string>
+			</array>
+		</dict>
+		<key>8A6696CE17201936D4D2FD63</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8B80F63981B32108CD0242A4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTFillColorAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTFillColorAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8DD21F490C18B874014D51BE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-TourTest-JazzHands.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8E4B8FBDF7F4ECD36D041892</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTCornerRadiusAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTCornerRadiusAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EE2A283D376CC8F13259ECF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTShapeLayerAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTShapeLayerAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8FA0E2F678995A840FBF90FD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B2E53EC7227E652087CBC4B8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>92F4EE58F981C2C021D96FD2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8A6696CE17201936D4D2FD63</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>94F8418830DFCE56572865C8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8B80F63981B32108CD0242A4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>952765DD92A5B09F5A436AC3</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods-TourTest-JazzHands.a</string>
+			<key>path</key>
+			<string>libPods-TourTest-JazzHands.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>957C33C996E31B018F930114</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BA09F90AC44BC9485B20BFFB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>97FFCF566DD05601F98A7FB1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTHideAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTHideAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C44BA9C1D439E709151B32D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3070E3E7A003A5D9DC0BD1E8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9D54F5B0CF3CB5084AB52535</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTFilmstrip.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTFilmstrip.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A043DCEDC7769953B69616A0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A5CC5BD547BA7BDA1894A032</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>A09FA1789C5EF2388E5A4538</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Pods-TourTest-JazzHands</string>
+			<key>target</key>
+			<string>D6696709BAA5CBF748F07B30</string>
+			<key>targetProxy</key>
+			<string>B85266C398ED4ECE6447D2FE</string>
+		</dict>
+		<key>A1A52F485B1379839ED4AA3A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTFilmstrip.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTFilmstrip.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A3725A229104FAFEC4146579</key>
+		<dict>
+			<key>fileRef</key>
+			<string>16FFA0814CFD7C25760D745A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>A52A75E6BDB3B1A91D790FA6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTAnimatable.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTAnimatable.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A5A0A54BC5CBAD9272BA014B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4131D2C5711535FCD2D587E4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A5CC5BD547BA7BDA1894A032</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTShapeLayerAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTShapeLayerAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A6B44258219815FC41A9D3A5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTViewAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTViewAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A8486F70F722F75D85CCAA7A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTFrameAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTFrameAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A87802C0CBCB6A3F47031ED6</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>QuartzCore.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>AA83467EF5910B023E1EA042</key>
+		<dict>
+			<key>fileRef</key>
+			<string>703E48FCFDF67B6F625D26F9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>ADDD8229968BBC2DBB248982</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3097A47D4483B1FBFAD10F43</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>AE55176A7408BD07662A3933</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>1AC8CF2433F03A54A37D1A08</string>
+				<string>59CCB5C9546FBD8DCEB23FDF</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>B2E53EC7227E652087CBC4B8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTLabelAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTLabelAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B42EC090EBD45B0A2CFC340D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B65F2567F9B5BFCF1E16AB56</key>
+		<dict>
+			<key>fileRef</key>
+			<string>77C81E09F4B4325D143225D3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>B85266C398ED4ECE6447D2FE</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>879138D4FED84E07158D76DA</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>D6696709BAA5CBF748F07B30</string>
+			<key>remoteInfo</key>
+			<string>Pods-TourTest-JazzHands</string>
+		</dict>
+		<key>BA09F90AC44BC9485B20BFFB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3097A47D4483B1FBFAD10F43</string>
+				<string>C04C9478E030DE8786F9F333</string>
+				<string>A52A75E6BDB3B1A91D790FA6</string>
+				<string>4CC30465AAD1CD9B73A956A6</string>
+				<string>1276422FD736560DC65AC46E</string>
+				<string>CAB5FE0763D8D9C2C441527C</string>
+				<string>172BD9070583CC52DDB811CB</string>
+				<string>8A6696CE17201936D4D2FD63</string>
+				<string>B42EC090EBD45B0A2CFC340D</string>
+				<string>355DAC30C0A1561F9C920191</string>
+				<string>FBEE7CD59392591B1BACDA8B</string>
+				<string>2ADA2E89EBD499EFEB0E1F88</string>
+				<string>D5F6FA9896F2AB06D11D1F1A</string>
+				<string>2A0168C03CF417CD4B482236</string>
+				<string>1D8BA1D7925CC66E857988D2</string>
+				<string>53E29A2CF49B0CF49D6319F0</string>
+				<string>148631FDAD055912C01938CC</string>
+				<string>029180BA998B4397305FA33B</string>
+				<string>8E4B8FBDF7F4ECD36D041892</string>
+				<string>D2399DFCAAE026931F10116C</string>
+				<string>4F161EFBE333078D1016B7BF</string>
+				<string>8B80F63981B32108CD0242A4</string>
+				<string>042E84E21D652E366AF754D1</string>
+				<string>A1A52F485B1379839ED4AA3A</string>
+				<string>9D54F5B0CF3CB5084AB52535</string>
+				<string>54D3DF44D4CA363A9B7D5CF5</string>
+				<string>A8486F70F722F75D85CCAA7A</string>
+				<string>97FFCF566DD05601F98A7FB1</string>
+				<string>E61B023099AEDF9DEF25C9C5</string>
+				<string>0D82FC0691F08F67351824ED</string>
+				<string>3DDCC07BDBFC10979C4C3BCF</string>
+				<string>3070E3E7A003A5D9DC0BD1E8</string>
+				<string>6AC1A20225519DA9CD5C3C92</string>
+				<string>B2E53EC7227E652087CBC4B8</string>
+				<string>C0FC820685B2109A7CD7BF67</string>
+				<string>25178E01B2D74AE06E5C1CFB</string>
+				<string>BB0AA47F4C0A41D61EFA3A57</string>
+				<string>16FFA0814CFD7C25760D745A</string>
+				<string>F43F4501FC06F7681B7F6615</string>
+				<string>0C37FE28FCFDFF89BD8D3041</string>
+				<string>8EE2A283D376CC8F13259ECF</string>
+				<string>A5CC5BD547BA7BDA1894A032</string>
+				<string>CCA43F70F5C413709519FE75</string>
+				<string>80BE1E5B7EACE864A8A0E8BA</string>
+				<string>016229E919CDE4F29F7B8C1E</string>
+				<string>E68D2227C8440A637A0E7F31</string>
+				<string>F64C71107CA0BF68FE03502A</string>
+				<string>2A0398BDF4940D173BB2FC8E</string>
+				<string>E71E3EC80E6BD3AD5739B3E2</string>
+				<string>77C81E09F4B4325D143225D3</string>
+				<string>548B7F4189FF0812B81826BF</string>
+				<string>F0B245FEA90486BA3DA879D0</string>
+				<string>A6B44258219815FC41A9D3A5</string>
+				<string>3F8A9B8661EAFD36E138E568</string>
+				<string>703E48FCFDF67B6F625D26F9</string>
+				<string>CC020884F75C675A4EDA5255</string>
+				<string>00966003A975B6661C836A92</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>JazzHands</string>
+			<key>path</key>
+			<string>JazzHands</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BB0AA47F4C0A41D61EFA3A57</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTScaleAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTScaleAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC2B85D25A6F838830984E23</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1D8BA1D7925CC66E857988D2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>BC956D5AE071BFB27163FEFD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>355DAC30C0A1561F9C920191</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C04C9478E030DE8786F9F333</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTAlphaAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTAlphaAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C0FC820685B2109A7CD7BF67</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTRotationAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTRotationAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C30068763F005D491A879E34</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>739778E4449E22560F4036DF</string>
+				<string>F449A31BA52EC1BFDF049DB0</string>
+				<string>7D7088DD4E3B6874EE37D5EC</string>
+				<string>6AFB43A03FFD1BB89CFD0498</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C586A13C5C7164A6862478B6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2A0398BDF4940D173BB2FC8E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>C763750BD81E810CE429D341</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>85124CDEE3DCDB581629BFAB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C85B2F2D4B4F3A2E248DF1E6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1276422FD736560DC65AC46E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>CAB5FE0763D8D9C2C441527C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTAnimatedScrollViewController.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTAnimatedScrollViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CBBD5BDA3547B93A4DE2EB2F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1BBA82739F894F59126684F3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CC020884F75C675A4EDA5255</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIView+IFTTTJazzHands.m</string>
+			<key>path</key>
+			<string>JazzHands/UIView+IFTTTJazzHands.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CC2134F2CDCB9D2E1FE6DE30</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>EB9D3362EAD72E74348ED9F3</string>
+				<string>EEF7BBFB7125268C3420AD94</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>CC64AF6CADF681F69B77828C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0C37FE28FCFDFF89BD8D3041</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>CCA43F70F5C413709519FE75</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTStrokeEndAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTStrokeEndAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CF6452BB59F103D372BBA7AF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-TourTest.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CF81A04D8E0038FBDE120311</key>
+		<dict>
+			<key>fileRef</key>
+			<string>548B7F4189FF0812B81826BF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D0449EEE28579860F3207FBB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>25178E01B2D74AE06E5C1CFB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>D1646FF4D4C8A0485AAE589A</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>RELEASE=1</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+				<key>SYMROOT</key>
+				<string>${SRCROOT}/../build</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>D2399DFCAAE026931F10116C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTEasingFunction.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTEasingFunction.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D51F94884491727512464EC8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F64C71107CA0BF68FE03502A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D5F6FA9896F2AB06D11D1F1A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTColorAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTColorAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D639DAEF03140EAAC07D1C67</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-TourTest-JazzHands-Private.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D6696709BAA5CBF748F07B30</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>AE55176A7408BD07662A3933</string>
+			<key>buildPhases</key>
+			<array>
+				<string>8302A7C665214F9F40F1008B</string>
+				<string>C30068763F005D491A879E34</string>
+				<string>2DDF3AE0F5B950E22E0CC7A6</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-TourTest-JazzHands</string>
+			<key>productName</key>
+			<string>Pods-TourTest-JazzHands</string>
+			<key>productReference</key>
+			<string>952765DD92A5B09F5A436AC3</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>D81559D6D012E066DA7DBB9E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>26E8A8CFF003E7AB71DF26B7</string>
+				<string>1BBA82739F894F59126684F3</string>
+				<string>A87802C0CBCB6A3F47031ED6</string>
+				<string>58AA66A3B3EEF7529FE4362B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E10EE71D836AE2DC6D80BA09</key>
+		<dict>
+			<key>fileRef</key>
+			<string>148631FDAD055912C01938CC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>E307A4DBE5022E78D349CB0A</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>CC2134F2CDCB9D2E1FE6DE30</string>
+			<key>buildPhases</key>
+			<array>
+				<string>C763750BD81E810CE429D341</string>
+				<string>E8CF5D03ECF1E4344A6DFA15</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>A09FA1789C5EF2388E5A4538</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-TourTest</string>
+			<key>productName</key>
+			<string>Pods-TourTest</string>
+			<key>productReference</key>
+			<string>68316B31F93454A5464E9AA3</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>E347F1C58F15AF7A012A538F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F0B245FEA90486BA3DA879D0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>E61B023099AEDF9DEF25C9C5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTHideAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTHideAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E68D2227C8440A637A0E7F31</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTStrokeStartAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTStrokeStartAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E71E3EC80E6BD3AD5739B3E2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTTransform3DAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTTransform3DAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E8CF5D03ECF1E4344A6DFA15</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>CBBD5BDA3547B93A4DE2EB2F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EB9D3362EAD72E74348ED9F3</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>CF6452BB59F103D372BBA7AF</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>EEF7BBFB7125268C3420AD94</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>85060824A42F3C7081BC6C6E</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>F00A0C3BE9324D0086394BBD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BB0AA47F4C0A41D61EFA3A57</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F0B245FEA90486BA3DA879D0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTTranslationAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTTranslationAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F15AD54F2D8D0430EDF1EA85</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3DDCC07BDBFC10979C4C3BCF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>F4363EAF14525A47438F1C2F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>53E29A2CF49B0CF49D6319F0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F43F4501FC06F7681B7F6615</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTScrollViewPageConstraintAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTScrollViewPageConstraintAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F449A31BA52EC1BFDF049DB0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1BBA82739F894F59126684F3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F495CA3901750A99D2E27BF8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A6B44258219815FC41A9D3A5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F64C71107CA0BF68FE03502A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTTextColorAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTTextColorAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FB43F9E62836AC995DFD7F44</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4836C6014056CF96D8E99368</string>
+				<string>095E684D9C8A4507EB35032C</string>
+				<string>957C33C996E31B018F930114</string>
+				<string>4490679496E751A837E7670F</string>
+				<string>A5A0A54BC5CBAD9272BA014B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FBEE7CD59392591B1BACDA8B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTAnimator.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTAnimator.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FC7CD9990D0ECF3FD481D1A5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>016229E919CDE4F29F7B8C1E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FFAFCF2DA9E19BAC8CF9A3E0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-TourTest-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>879138D4FED84E07158D76DA</string>
+</dict>
+</plist>

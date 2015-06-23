@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FF379E2E-6DD5-42D6-BCF4-9E70E056E605</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TourTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>56F56A871E8DAB17914F5AA82618E8224EB66F5B</key>
+		<string>https://github.com/confile/JazzHandsSwift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TourTest/TourTest.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>56F56A871E8DAB17914F5AA82618E8224EB66F5B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/confile/JazzHandsSwift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>56F56A871E8DAB17914F5AA82618E8224EB66F5B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>56F56A871E8DAB17914F5AA82618E8224EB66F5B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JazzHandsSwift</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -16,18 +16,22 @@
 		CC68F5361B1BE16900AB2196 /* TourTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC68F5351B1BE16900AB2196 /* TourTestTests.swift */; };
 		CC68F5441B1C6D4500AB2196 /* TourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC68F5431B1C6D4500AB2196 /* TourViewController.swift */; };
 		CC68F54C1B1D1DDC00AB2196 /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC68F54B1B1D1DDC00AB2196 /* UIColorExt.swift */; };
-		CC68F5631B1DB7F100AB2196 /* View+MGKeyFrameAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC68F5621B1DB7F100AB2196 /* View+MGKeyFrameAnimation.swift */; };
-		CC68F5651B1DD15200AB2196 /* MGAnimationConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC68F5641B1DD15200AB2196 /* MGAnimationConstraintMaker.swift */; };
-		CC68F5691B1DD74800AB2196 /* MGAnimationFrameAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC68F5681B1DD74800AB2196 /* MGAnimationFrameAnimation.swift */; };
-		CC68F56B1B1DE07700AB2196 /* MGAnimationAlphaAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC68F56A1B1DE07700AB2196 /* MGAnimationAlphaAnimation.swift */; };
-		CC68F56D1B1DE95C00AB2196 /* MGAnimationHideAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC68F56C1B1DE95C00AB2196 /* MGAnimationHideAnimation.swift */; };
-		CC68F56F1B1DEA3A00AB2196 /* MGAnimationAngleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC68F56E1B1DEA3A00AB2196 /* MGAnimationAngleAnimation.swift */; };
-		CC68F5711B1DEB2100AB2196 /* MGAnimationColorAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC68F5701B1DEB2100AB2196 /* MGAnimationColorAnimation.swift */; };
-		CC68F5731B1DEBD000AB2196 /* MGAnimationScaleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC68F5721B1DEBD000AB2196 /* MGAnimationScaleAnimation.swift */; };
-		CC68F5751B1DEC5F00AB2196 /* MGAnimationCornerRadiusAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC68F5741B1DEC5F00AB2196 /* MGAnimationCornerRadiusAnimation.swift */; };
-		CC68F5771B1DED0E00AB2196 /* MGAnimationConstraintsAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC68F5761B1DED0E00AB2196 /* MGAnimationConstraintsAnimation.swift */; };
-		CC68F5791B1DEDB400AB2196 /* MGAnimationTransform3DAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC68F5781B1DEDB400AB2196 /* MGAnimationTransform3DAnimation.swift */; };
-		CC68F57B1B1DEF9F00AB2196 /* MGAnimationEasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC68F57A1B1DEF9F00AB2196 /* MGAnimationEasing.swift */; };
+		CCE69B361B39897D00B23492 /* MGAnimationAlphaAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE69B261B39897D00B23492 /* MGAnimationAlphaAnimation.swift */; };
+		CCE69B371B39897D00B23492 /* MGAnimationColorAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE69B271B39897D00B23492 /* MGAnimationColorAnimation.swift */; };
+		CCE69B381B39897D00B23492 /* MGAnimationConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE69B281B39897D00B23492 /* MGAnimationConstraintMaker.swift */; };
+		CCE69B391B39897D00B23492 /* MGAnimationCornerRadiusAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE69B291B39897D00B23492 /* MGAnimationCornerRadiusAnimation.swift */; };
+		CCE69B3A1B39897D00B23492 /* MGAnimationEasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE69B2A1B39897D00B23492 /* MGAnimationEasing.swift */; };
+		CCE69B3B1B39897D00B23492 /* MGAnimationFrameAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE69B2B1B39897D00B23492 /* MGAnimationFrameAnimation.swift */; };
+		CCE69B3C1B39897D00B23492 /* MGAnimationHideAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE69B2C1B39897D00B23492 /* MGAnimationHideAnimation.swift */; };
+		CCE69B3D1B39897D00B23492 /* MGAnimationRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE69B2D1B39897D00B23492 /* MGAnimationRotationAnimation.swift */; };
+		CCE69B3E1B39897D00B23492 /* MGAnimationScaleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE69B2E1B39897D00B23492 /* MGAnimationScaleAnimation.swift */; };
+		CCE69B3F1B39897D00B23492 /* MGAnimationTextColorAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE69B2F1B39897D00B23492 /* MGAnimationTextColorAnimation.swift */; };
+		CCE69B401B39897D00B23492 /* MGAnimationTransform3DAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE69B301B39897D00B23492 /* MGAnimationTransform3DAnimation.swift */; };
+		CCE69B411B39897D00B23492 /* MGKeyFrameAnimationBaseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE69B311B39897D00B23492 /* MGKeyFrameAnimationBaseAnimation.swift */; };
+		CCE69B421B39897D00B23492 /* MGKeyFrameAnimationConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE69B321B39897D00B23492 /* MGKeyFrameAnimationConstraintMaker.swift */; };
+		CCE69B431B39897D00B23492 /* MGKeyFrameAnimationEasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE69B331B39897D00B23492 /* MGKeyFrameAnimationEasing.swift */; };
+		CCE69B441B39897D00B23492 /* MGKeyFrameAnimationFrameAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE69B341B39897D00B23492 /* MGKeyFrameAnimationFrameAnimation.swift */; };
+		CCE69B451B39897D00B23492 /* View+MGKeyFrameAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE69B351B39897D00B23492 /* View+MGKeyFrameAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,18 +60,22 @@
 		CC68F53F1B1BE17C00AB2196 /* TourTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TourTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		CC68F5431B1C6D4500AB2196 /* TourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourViewController.swift; sourceTree = "<group>"; };
 		CC68F54B1B1D1DDC00AB2196 /* UIColorExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
-		CC68F5621B1DB7F100AB2196 /* View+MGKeyFrameAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "View+MGKeyFrameAnimation.swift"; path = "MGKeyFrameAnimation/View+MGKeyFrameAnimation.swift"; sourceTree = "<group>"; };
-		CC68F5641B1DD15200AB2196 /* MGAnimationConstraintMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MGAnimationConstraintMaker.swift; path = MGKeyFrameAnimation/MGAnimationConstraintMaker.swift; sourceTree = "<group>"; };
-		CC68F5681B1DD74800AB2196 /* MGAnimationFrameAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MGAnimationFrameAnimation.swift; path = MGKeyFrameAnimation/MGAnimationFrameAnimation.swift; sourceTree = "<group>"; };
-		CC68F56A1B1DE07700AB2196 /* MGAnimationAlphaAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MGAnimationAlphaAnimation.swift; path = MGKeyFrameAnimation/MGAnimationAlphaAnimation.swift; sourceTree = "<group>"; };
-		CC68F56C1B1DE95C00AB2196 /* MGAnimationHideAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MGAnimationHideAnimation.swift; path = MGKeyFrameAnimation/MGAnimationHideAnimation.swift; sourceTree = "<group>"; };
-		CC68F56E1B1DEA3A00AB2196 /* MGAnimationAngleAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MGAnimationAngleAnimation.swift; path = MGKeyFrameAnimation/MGAnimationAngleAnimation.swift; sourceTree = "<group>"; };
-		CC68F5701B1DEB2100AB2196 /* MGAnimationColorAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MGAnimationColorAnimation.swift; path = MGKeyFrameAnimation/MGAnimationColorAnimation.swift; sourceTree = "<group>"; };
-		CC68F5721B1DEBD000AB2196 /* MGAnimationScaleAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MGAnimationScaleAnimation.swift; path = MGKeyFrameAnimation/MGAnimationScaleAnimation.swift; sourceTree = "<group>"; };
-		CC68F5741B1DEC5F00AB2196 /* MGAnimationCornerRadiusAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MGAnimationCornerRadiusAnimation.swift; path = MGKeyFrameAnimation/MGAnimationCornerRadiusAnimation.swift; sourceTree = "<group>"; };
-		CC68F5761B1DED0E00AB2196 /* MGAnimationConstraintsAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MGAnimationConstraintsAnimation.swift; path = MGKeyFrameAnimation/MGAnimationConstraintsAnimation.swift; sourceTree = "<group>"; };
-		CC68F5781B1DEDB400AB2196 /* MGAnimationTransform3DAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MGAnimationTransform3DAnimation.swift; path = MGKeyFrameAnimation/MGAnimationTransform3DAnimation.swift; sourceTree = "<group>"; };
-		CC68F57A1B1DEF9F00AB2196 /* MGAnimationEasing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MGAnimationEasing.swift; path = MGKeyFrameAnimation/MGAnimationEasing.swift; sourceTree = "<group>"; };
+		CCE69B261B39897D00B23492 /* MGAnimationAlphaAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGAnimationAlphaAnimation.swift; sourceTree = "<group>"; };
+		CCE69B271B39897D00B23492 /* MGAnimationColorAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGAnimationColorAnimation.swift; sourceTree = "<group>"; };
+		CCE69B281B39897D00B23492 /* MGAnimationConstraintMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGAnimationConstraintMaker.swift; sourceTree = "<group>"; };
+		CCE69B291B39897D00B23492 /* MGAnimationCornerRadiusAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGAnimationCornerRadiusAnimation.swift; sourceTree = "<group>"; };
+		CCE69B2A1B39897D00B23492 /* MGAnimationEasing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGAnimationEasing.swift; sourceTree = "<group>"; };
+		CCE69B2B1B39897D00B23492 /* MGAnimationFrameAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGAnimationFrameAnimation.swift; sourceTree = "<group>"; };
+		CCE69B2C1B39897D00B23492 /* MGAnimationHideAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGAnimationHideAnimation.swift; sourceTree = "<group>"; };
+		CCE69B2D1B39897D00B23492 /* MGAnimationRotationAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGAnimationRotationAnimation.swift; sourceTree = "<group>"; };
+		CCE69B2E1B39897D00B23492 /* MGAnimationScaleAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGAnimationScaleAnimation.swift; sourceTree = "<group>"; };
+		CCE69B2F1B39897D00B23492 /* MGAnimationTextColorAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGAnimationTextColorAnimation.swift; sourceTree = "<group>"; };
+		CCE69B301B39897D00B23492 /* MGAnimationTransform3DAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGAnimationTransform3DAnimation.swift; sourceTree = "<group>"; };
+		CCE69B311B39897D00B23492 /* MGKeyFrameAnimationBaseAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGKeyFrameAnimationBaseAnimation.swift; sourceTree = "<group>"; };
+		CCE69B321B39897D00B23492 /* MGKeyFrameAnimationConstraintMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGKeyFrameAnimationConstraintMaker.swift; sourceTree = "<group>"; };
+		CCE69B331B39897D00B23492 /* MGKeyFrameAnimationEasing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGKeyFrameAnimationEasing.swift; sourceTree = "<group>"; };
+		CCE69B341B39897D00B23492 /* MGKeyFrameAnimationFrameAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGKeyFrameAnimationFrameAnimation.swift; sourceTree = "<group>"; };
+		CCE69B351B39897D00B23492 /* View+MGKeyFrameAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+MGKeyFrameAnimation.swift"; sourceTree = "<group>"; };
 		F674D45223933A24F9489E93 /* libPods-TourTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TourTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -130,7 +138,7 @@
 		CC68F51C1B1BE16900AB2196 /* TourTest */ = {
 			isa = PBXGroup;
 			children = (
-				CC68F5611B1DB79300AB2196 /* MGKeyFrameAnimation */,
+				CCE69B251B39897D00B23492 /* Source */,
 				CC68F5431B1C6D4500AB2196 /* TourViewController.swift */,
 				CC68F51F1B1BE16900AB2196 /* AppDelegate.swift */,
 				CC68F5211B1BE16900AB2196 /* ViewController.swift */,
@@ -169,23 +177,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CC68F5611B1DB79300AB2196 /* MGKeyFrameAnimation */ = {
+		CCE69B251B39897D00B23492 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				CC68F5621B1DB7F100AB2196 /* View+MGKeyFrameAnimation.swift */,
-				CC68F5641B1DD15200AB2196 /* MGAnimationConstraintMaker.swift */,
-				CC68F5681B1DD74800AB2196 /* MGAnimationFrameAnimation.swift */,
-				CC68F56A1B1DE07700AB2196 /* MGAnimationAlphaAnimation.swift */,
-				CC68F56C1B1DE95C00AB2196 /* MGAnimationHideAnimation.swift */,
-				CC68F56E1B1DEA3A00AB2196 /* MGAnimationAngleAnimation.swift */,
-				CC68F5701B1DEB2100AB2196 /* MGAnimationColorAnimation.swift */,
-				CC68F5721B1DEBD000AB2196 /* MGAnimationScaleAnimation.swift */,
-				CC68F5741B1DEC5F00AB2196 /* MGAnimationCornerRadiusAnimation.swift */,
-				CC68F5761B1DED0E00AB2196 /* MGAnimationConstraintsAnimation.swift */,
-				CC68F5781B1DEDB400AB2196 /* MGAnimationTransform3DAnimation.swift */,
-				CC68F57A1B1DEF9F00AB2196 /* MGAnimationEasing.swift */,
+				CCE69B261B39897D00B23492 /* MGAnimationAlphaAnimation.swift */,
+				CCE69B271B39897D00B23492 /* MGAnimationColorAnimation.swift */,
+				CCE69B281B39897D00B23492 /* MGAnimationConstraintMaker.swift */,
+				CCE69B291B39897D00B23492 /* MGAnimationCornerRadiusAnimation.swift */,
+				CCE69B2A1B39897D00B23492 /* MGAnimationEasing.swift */,
+				CCE69B2B1B39897D00B23492 /* MGAnimationFrameAnimation.swift */,
+				CCE69B2C1B39897D00B23492 /* MGAnimationHideAnimation.swift */,
+				CCE69B2D1B39897D00B23492 /* MGAnimationRotationAnimation.swift */,
+				CCE69B2E1B39897D00B23492 /* MGAnimationScaleAnimation.swift */,
+				CCE69B2F1B39897D00B23492 /* MGAnimationTextColorAnimation.swift */,
+				CCE69B301B39897D00B23492 /* MGAnimationTransform3DAnimation.swift */,
+				CCE69B311B39897D00B23492 /* MGKeyFrameAnimationBaseAnimation.swift */,
+				CCE69B321B39897D00B23492 /* MGKeyFrameAnimationConstraintMaker.swift */,
+				CCE69B331B39897D00B23492 /* MGKeyFrameAnimationEasing.swift */,
+				CCE69B341B39897D00B23492 /* MGKeyFrameAnimationFrameAnimation.swift */,
+				CCE69B351B39897D00B23492 /* View+MGKeyFrameAnimation.swift */,
 			);
-			name = MGKeyFrameAnimation;
+			name = Source;
+			path = ../../Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,22 +336,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC68F5771B1DED0E00AB2196 /* MGAnimationConstraintsAnimation.swift in Sources */,
-				CC68F5651B1DD15200AB2196 /* MGAnimationConstraintMaker.swift in Sources */,
-				CC68F5691B1DD74800AB2196 /* MGAnimationFrameAnimation.swift in Sources */,
-				CC68F5751B1DEC5F00AB2196 /* MGAnimationCornerRadiusAnimation.swift in Sources */,
+				CCE69B421B39897D00B23492 /* MGKeyFrameAnimationConstraintMaker.swift in Sources */,
+				CCE69B3A1B39897D00B23492 /* MGAnimationEasing.swift in Sources */,
+				CCE69B3D1B39897D00B23492 /* MGAnimationRotationAnimation.swift in Sources */,
+				CCE69B431B39897D00B23492 /* MGKeyFrameAnimationEasing.swift in Sources */,
 				CC68F5221B1BE16900AB2196 /* ViewController.swift in Sources */,
-				CC68F56B1B1DE07700AB2196 /* MGAnimationAlphaAnimation.swift in Sources */,
+				CCE69B361B39897D00B23492 /* MGAnimationAlphaAnimation.swift in Sources */,
+				CCE69B411B39897D00B23492 /* MGKeyFrameAnimationBaseAnimation.swift in Sources */,
 				CC68F54C1B1D1DDC00AB2196 /* UIColorExt.swift in Sources */,
+				CCE69B371B39897D00B23492 /* MGAnimationColorAnimation.swift in Sources */,
+				CCE69B3B1B39897D00B23492 /* MGAnimationFrameAnimation.swift in Sources */,
+				CCE69B441B39897D00B23492 /* MGKeyFrameAnimationFrameAnimation.swift in Sources */,
+				CCE69B381B39897D00B23492 /* MGAnimationConstraintMaker.swift in Sources */,
+				CCE69B3F1B39897D00B23492 /* MGAnimationTextColorAnimation.swift in Sources */,
+				CCE69B3E1B39897D00B23492 /* MGAnimationScaleAnimation.swift in Sources */,
 				CC68F5441B1C6D4500AB2196 /* TourViewController.swift in Sources */,
-				CC68F57B1B1DEF9F00AB2196 /* MGAnimationEasing.swift in Sources */,
-				CC68F5731B1DEBD000AB2196 /* MGAnimationScaleAnimation.swift in Sources */,
-				CC68F5711B1DEB2100AB2196 /* MGAnimationColorAnimation.swift in Sources */,
+				CCE69B391B39897D00B23492 /* MGAnimationCornerRadiusAnimation.swift in Sources */,
+				CCE69B401B39897D00B23492 /* MGAnimationTransform3DAnimation.swift in Sources */,
+				CCE69B3C1B39897D00B23492 /* MGAnimationHideAnimation.swift in Sources */,
 				CC68F5201B1BE16900AB2196 /* AppDelegate.swift in Sources */,
-				CC68F56D1B1DE95C00AB2196 /* MGAnimationHideAnimation.swift in Sources */,
-				CC68F5791B1DEDB400AB2196 /* MGAnimationTransform3DAnimation.swift in Sources */,
-				CC68F5631B1DB7F100AB2196 /* View+MGKeyFrameAnimation.swift in Sources */,
-				CC68F56F1B1DEA3A00AB2196 /* MGAnimationAngleAnimation.swift in Sources */,
+				CCE69B451B39897D00B23492 /* View+MGKeyFrameAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

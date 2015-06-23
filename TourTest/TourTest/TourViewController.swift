@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TourViewController: IFTTTAnimatedScrollViewController, IFTTTAnimatedScrollViewControllerDelegate {
+class TourViewController: IFTTTAnimatedPagingScrollViewController {
   
   private let NUMBER_OF_PAGES: CGFloat = 5
   
@@ -21,16 +21,26 @@ class TourViewController: IFTTTAnimatedScrollViewController, IFTTTAnimatedScroll
   private var likeDescription: UIView?
   
   
+  init() {
+    super.init(nibName: nil, bundle: nil)
+    self.numberOfPages = 5
+  }
+
+  required init(coder aDecoder: NSCoder) {
+      fatalError("init(coder:) has not been implemented")
+  }
+  
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     
     self.view.backgroundColor = MGColor.headerBackgroundColor
     
-    self.scrollView.bounces = false
-    self.scrollView.contentSize = CGSizeMake(NUMBER_OF_PAGES * CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame))
-    self.scrollView.pagingEnabled = true
-    self.scrollView.showsHorizontalScrollIndicator = false
-    self.delegate = self
+//    self.scrollView.bounces = false
+//    self.scrollView.contentSize = CGSizeMake(NUMBER_OF_PAGES * CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame))
+//    self.scrollView.pagingEnabled = true
+//    self.scrollView.showsHorizontalScrollIndicator = false
+//    self.delegate = self
     
     setupPageControl()
     
@@ -56,8 +66,8 @@ class TourViewController: IFTTTAnimatedScrollViewController, IFTTTAnimatedScroll
     self.view.addSubview(self.pageControl!)
   }
   
-  private func timeForPage(page: CGFloat) -> Int {
-    return Int(self.view.frame.size.width * (page - 1))
+  private func centerForPage(page: CGFloat) -> CGFloat {
+    return self.view.frame.size.width * page
   }
   
   
@@ -130,79 +140,65 @@ class TourViewController: IFTTTAnimatedScrollViewController, IFTTTAnimatedScroll
   
   private func configureAnimation() {
     
-    // ---------------------------
-    // animage page1 container
-
-    self.page1Container?.mg_makeAnimation(animator) { (make) -> Void in
-      make.alphaAnimation.add(timeForPage(1), alpha: 1)
-      make.alphaAnimation.add(timeForPage(2), alpha: 0)
-    }
-    
- 
     
     // ---------------------------
     // animate crown
     
     self.crown?.mg_makeAnimation(animator) { (make) -> Void in
-      make.frameAnimation.add(timeForPage(1), frame: self.crown!.frame)
-      make.frameAnimation.add(timeForPage(2), frame: CGRectOffset(CGRectInset(self.crown!.frame, 42, 42), CGFloat(timeForPage(2)) + 2, 78))
+      make.frameAnimation.add(0, frame: self.crown!.frame)
+      make.frameAnimation.add(1, frame: CGRectOffset(CGRectInset(self.crown!.frame, 42, 42), CGFloat(centerForPage(1)) + 2, 78))
   
       // hide after page 2
-      make.hideAnimation.hideAt(timeForPage(2))
+      make.hideAnimation.hideAt(2)
       
       // rotate the crown from page 1 to page 2
-      make.angleAnimation.add(timeForPage(1), angle: 0)
-      make.angleAnimation.add(timeForPage(2), angle: CGFloat(M_PI)*2)
+      make.rotationAnimation.add(0, angle: 0)
+      make.rotationAnimation.add(1, angle: -180)
     }
    
     // ---------------------------
     // animate likeDescription
 
     self.likeDescription?.mg_makeAnimation(animator ) { (make) -> Void in
-      make.alphaAnimation.add(timeForPage(2), alpha: 0)
-      make.alphaAnimation.add(timeForPage(3), alpha: 1)
+      make.alphaAnimation.add(1, alpha: 0)
+      make.alphaAnimation.add(2, alpha: 1)
       
-      make.frameAnimation.add(timeForPage(2), frame: self.likeDescription!.frame)
-      make.frameAnimation.add(timeForPage(3), frame: CGRectOffset(self.likeDescription!.frame, self.view.frame.width*2, 0))
+      make.frameAnimation.add(1, frame: self.likeDescription!.frame)
+      make.frameAnimation.add(2, frame: CGRectOffset(self.likeDescription!.frame, self.view.frame.width*2, 0))
       
       // likeDescription rotation
-      make.angleAnimation.add(timeForPage(2), angle: 0)
-      make.angleAnimation.add(timeForPage(3), angle: CGFloat(M_PI/4))
+      make.rotationAnimation.add(1, angle: 0)
+      make.rotationAnimation.add(2, angle: -90)
       
       // hide likeDescription on page 3
-      make.hideAnimation.hideAt(timeForPage(3))
+      make.hideAnimation.hideAt(2)
     }
     
     // ---------------------------
     // animate the phoneScreen
     
     self.phoneScreen?.mg_makeAnimation(animator) { (make) -> Void in
-      make.frameAnimation.add(timeForPage(2), frame: self.phoneScreen!.frame, easing: MGAnimationEasing.easeInCubic)
-      make.frameAnimation.add(timeForPage(3), frame: CGRectOffset(self.phoneScreen!.frame, self.view.frame.size.width, 0))
-    //  make.frameAnimation.add(timeForPage(4), frame: CGRectOffset(self.phoneScreen!.frame, self.view.frame.size.width*2, 0))
+      make.frameAnimation.add(1, frame: self.phoneScreen!.frame, easing: MGAnimationEasing.easeInCubic)
+      make.frameAnimation.add(1.5, frame: CGRectOffset(self.phoneScreen!.frame, self.view.frame.size.width, 0))
     }
-    
+
     
    // ---------------------------
-    // animate card1
+   // animate card1
 
     self.card1?.mg_makeAnimation(animator) { (make) -> Void in
-      make.frameAnimation.add(timeForPage(2), frame: self.card1!.frame)
-      make.frameAnimation.add(timeForPage(3), frame: CGRectOffset(self.card1!.frame, self.view.frame.width*2, 0))
+      make.frameAnimation.add(1, frame: self.card1!.frame)
+      make.frameAnimation.add(2, frame: CGRectOffset(self.card1!.frame, self.view.frame.width*2, 0))
       
       // card like rotation
-      make.angleAnimation.add(timeForPage(2), angle: 0)
-      make.angleAnimation.add(timeForPage(3), angle: CGFloat(M_PI/4))
+      make.rotationAnimation.add(1, angle: 0)
+      make.rotationAnimation.add(2, angle: -90)
       
       // hide card1 on page 3
-      make.hideAnimation.hideAt(timeForPage(3))
+      make.hideAnimation.hideAt(2)
     }
 
-    
-    // ---------------------------
-    // card2
-
-    
+ 
     
   }
   
@@ -223,10 +219,7 @@ class TourViewController: IFTTTAnimatedScrollViewController, IFTTTAnimatedScroll
     self.pageControl?.currentPage = getPageNumber()
   }
   
- 
-  
-  // MARK: IFTTTAnimatedScrollViewControllerDelegate
-  
+
   
   
 }

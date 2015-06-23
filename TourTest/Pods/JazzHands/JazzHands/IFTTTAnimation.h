@@ -6,30 +6,16 @@
 //  Copyright (c) 2013 IFTTT Inc. All rights reserved.
 //
 
-@import Foundation;
-@import UIKit;
-@class IFTTTAnimationKeyFrame, IFTTTAnimationFrame;
+#import <UIKit/UIKit.h>
+#import "IFTTTEasingFunction.h"
+#import "IFTTTInterpolatable.h"
+#import "IFTTTAnimatable.h"
 
 @interface IFTTTAnimation : NSObject
 
-@property (strong, nonatomic) UIView *view;
-@property (strong, nonatomic) NSLayoutConstraint *constraint;
-@property (strong, nonatomic) NSMutableArray *keyFrames;
-
-+ (instancetype)animationWithView:(UIView *)view;
-
-- (id)initWithView:(UIView *)view;
-
-- (void)animate:(NSInteger)time;
-
-- (void)addKeyFrames:(NSArray *)keyFrames;
-- (void)addKeyFrame:(IFTTTAnimationKeyFrame *)keyFrame;
-
-- (IFTTTAnimationFrame *)animationFrameForTime:(NSInteger)time;
-- (CGFloat)tweenValueForStartTime:(NSInteger)startTime
-                          endTime:(NSInteger)endTime
-                       startValue:(CGFloat)startValue
-                         endValue:(CGFloat)endValue
-                           atTime:(CGFloat)time;
+- (void)addKeyframeForTime:(CGFloat)time value:(id<IFTTTInterpolatable>)value;
+- (void)addKeyframeForTime:(CGFloat)time value:(id<IFTTTInterpolatable>)value withEasingFunction:(IFTTTEasingFunction)easingFunction;
+- (id<IFTTTInterpolatable>)valueAtTime:(CGFloat)time;
+- (BOOL)hasKeyframes;
 
 @end
