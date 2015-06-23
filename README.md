@@ -6,7 +6,7 @@ Instalation
 - Copy the ``Source`` directory to your project and link it by dragging into Xcode.
 - Install the dependent pod. Include the following line in your pod file's target:
  ```
-pod 'JazzHands', '~> 0.2.1'
+pod 'JazzHands', '~> 2.0.0'
 ```
 In your project you have to create a Bridging-Header file and include: 
 ```
